@@ -1,0 +1,6 @@
+---
+# defaults file for my-ec2_instance
+instance_type: t2.micro
+shutdown: True
+assign_public_ip: yes
+volume_size: 8
