@@ -216,7 +216,13 @@ galaxy_info:
     # NOTE: A tag is limited to a single word comprised of
     # alphanumeric characters. Maximum 20 tags per role.
 
-dependencies: []
+dependencies:
   # List your role dependencies here, one per line.
   # Be sure to remove the '[]' above if you add dependencies
   # to this list.
+  - src: git+https://github.com/github.com:filipninja/ansible-ec2-sg.git
+    version: master
+    name: my-ec2-sg
+  - src: git+https://github.com/github.com:filipninja/ansible-iam-role.git
+    version: master
+    name: my-iam-role

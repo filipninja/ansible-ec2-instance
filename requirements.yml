@@ -1,0 +1,7 @@
+# from GitHub, overriding the name and specifying a specific tag
+- src: https://github.com/github.com:filipninja/ansible-ec2-sg.git
+  version: master
+  name: my-ec2-sg
+- src: https://github.com/github.com:filipninja/ansible-iam-role.git
+  version: master
+  name: my-iam-role
